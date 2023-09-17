@@ -30,7 +30,8 @@ body {
   display: grid;
   place-items: center;
   min-height: 100vh;
-  margin: 40px;
+  min-width: 375px;
+  margin-top: 20px;
   overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
