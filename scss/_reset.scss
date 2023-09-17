@@ -1,0 +1,64 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Allan&family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;1,800&family=Barlow:ital,wght@0,300;0,500;0,800;1,400&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700;800&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Noto+Sans+Symbols:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&family=Outfit:wght@100;200;300&family=Playfair+Display:wght@500&family=Raleway:wght@400;800&family=Red+Hat+Display:wght@300&display=swap");
+$font-stack: "Lexend Deca";
+@import url('https://fonts.googleapis.com/css2?family=Allan&family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;1,800&family=Barlow:ital,wght@0,300;0,500;0,800;1,400&family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700;800&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Noto+Sans+Symbols:wght@300;400;600;700&family=Open+Sans:wght@300;400;600&family=Outfit:wght@100;200;300&family=Playfair+Display:wght@500&family=Raleway:wght@400;800&family=Red+Hat+Display:wght@300&display=swap');
+$font-stack2: "Big Shoulders Display";
+
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background: white;
+  color: white;
+  font-family: $font-stack;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+img {
+    padding-left: 20px;
+}
+
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  margin: 40px;
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 1.25rem;
+    width: 23.4375rem;
+  }
+  
+body .container {
+    display: grid;
+  }
+
+
+footer .container {
+    color: black;
+    background: none;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+        background: none;
+      }
+  }
+

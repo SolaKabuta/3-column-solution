@@ -1,0 +1,45 @@
+@mixin pdg {
+    padding: 20px 0px 20px 20px;
+}
+
+@mixin title-font {
+    font-family: $font-stack2;
+    font-size: 2.625rem;
+    text-transform: uppercase;
+}
+
+@mixin orange-card {
+    height: 380px;
+    background: $orange;
+    // border-top-left-radius: 5px;
+    // border-top-right-radius: 5px;
+    .btn-1 {
+        color: $orange;
+    }
+}
+
+@mixin cyan-card {
+    height: 380px;
+    background: $cyan;
+    .btn-2 {
+        color: $cyan;
+    }
+}
+
+@mixin dark-cyan-card {
+    height: 380px;
+    background: $darkcyan;
+    // border-bottom-left-radius: 5px;
+    // border-bottom-right-radius: 5px;
+    .btn-3 {
+        color: $darkcyan;
+    }
+}
+
+// RESPONSIVE 
+
+@mixin respcard {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 5px;
+}
+
